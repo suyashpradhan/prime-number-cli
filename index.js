@@ -32,7 +32,7 @@ function handler() {
     console.log(chalk.red.blue("It should not exceed", chalk.bold.cyan(maxDate), "for days and ", chalk.bold.cyan(maxMonth), "for month"));
   else {
     //Welcome msg
-console.log("\nWelcome\n", chalk.bold.cyan(userName), "Your Birthdate is", chalk.bold.cyan(birthDate), chalk.bold.cyan(birthMonth), "\n", "Let's play a game\n");
+    console.log("\nWelcome\n", chalk.bold.cyan(userName), "Your Birthdate is", chalk.bold.cyan(birthDate), chalk.bold.cyan(birthMonth), "\n");
     primeChecker(unparsedValue);
   }
 }
